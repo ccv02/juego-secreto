@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="widt=device-widht, initial-scale=1.0">
+        <tittle>Amigo Secreto</tittle>
+    <link rel="stylesheet"
+href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Amigo Secreto</h1>
+    </header>
+    <main>
+        <section id="participantes">
+            <h2>Participantes</h2>
+            <form id="form-participantes">
+                <label for="nombre-participante">nombre del participante:</label>
+                <input type="text" id="nombre-participante" name="nombre-participante">
+            <button id="btn-agregar-participante">Agregar participante</button>
+        </form> 
+        <ul id="lista-participantes"></ul>
+    </section>
+<section id="sorteo">
+    <h2>Sortear Amigo Secreto</h2>
+<button id="btn-sortear-amigo-secreto">Sortear</button>
+<p id="resultado-sorteo"></p>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
+
